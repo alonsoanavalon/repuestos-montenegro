@@ -1,0 +1,24 @@
+body {
+    max-width:1920px;
+    
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 1fr;
+    grid-template:"header"
+                  "main"
+                  "footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area:main;
+    
+}
+
+.footer {
+    grid-area:footer;
+   
+}
