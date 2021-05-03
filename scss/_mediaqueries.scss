@@ -1,0 +1,213 @@
+                    /* MediaQueries INDEX */
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    /* Header */
+
+    body {
+        .header {
+            .nav {
+                .logo-container {
+                    .nav-logo {
+                        
+                    }
+                }
+            }
+    
+    
+            .main-image {
+                .image-content {
+                    img {
+                        width:150px;
+                    }
+    
+                    h1 {
+                        font-size:1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+   
+
+    /* Main */
+
+    body {
+        .main {
+            .services {
+                .services-images {
+                   
+                    justify-content:center;
+                    gap:4rem;  
+
+                    .services-image {
+                        width:200px;
+                        height:200px;
+                    }
+                }
+            }
+
+            .suppliers {
+                .logos {
+                    #logo-kia {
+                        width:120px;
+                    }
+                    #logo-liqui {
+                        width:110px;
+                    }
+
+                    #logo-philips {
+                        width:120px;
+                    }
+
+                    #logo-hyundai {
+                        width:160px;
+                    }
+
+                    #logo-renault {
+                        width:100px;
+                    }
+
+                    #logo-castrol {
+                        width:140px;
+                    }
+                    .logo-image {
+                        width:150px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Footer */
+
+    body {
+        .footer {
+            .footer-container {
+                img {
+                    width:150px;
+                }
+            }
+        }
+    }
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    /* Header */
+
+    body {
+        .header {
+            .nav {
+
+            }
+
+            .main-image {
+                .image-content {
+                    h1 {
+                        font-size:1.7rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Main */
+
+    body {
+
+
+        
+
+        .main {
+            .services {
+             
+                .services-images {
+                    padding:2rem 0;
+                    .services-image {
+                        width:250px;
+                        height:250px;
+                        h4 {
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Footer */
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    /* Header */
+
+    body {
+        .header {
+            .main-image {
+                height:450px;
+            }
+        }
+    }
+
+    /* Main */
+
+    /* Footer */
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    /* Header */
+    body {
+        max-width:2560px;
+        margin:0 auto;
+        .header {
+            .main-image {
+                height:600px;
+            }
+
+
+    
+        }
+
+    }
+    /* Main */
+
+    body {
+
+
+        
+
+        .main {
+            .services {
+             
+                .services-images {
+                    justify-content: center;
+                    gap: 7rem;
+                    .services-image {
+                        width:30%;
+                        height:400px;
+                        max-width:500px;
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    /* Footer */
+
+
+}

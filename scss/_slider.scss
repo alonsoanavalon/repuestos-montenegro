@@ -65,24 +65,31 @@
 
 
 @media (min-width: 576px) { 
+    
+    .slider {
+        height:350px;
+    }
 
 }
 
 
 @media (min-width: 768px) { 
     .slider {
-        width:700px;
+        width:85%;
         height:400px;
     }
 }
 
 
 @media (min-width: 992px) { 
+
+
 }
 
 @media (min-width: 1200px) { 
     .slider {
-        width:800px;
+        width:80%;
         height:450px;
+        max-width:1440px;
     }
  }

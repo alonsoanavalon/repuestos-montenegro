@@ -323,6 +323,79 @@ body {
 .footer {
   grid-area: footer; }
 
+/* MediaQueries INDEX */
+@media (min-width: 576px) {
+  /* Header */
+  body .header .main-image .image-content img {
+    width: 150px; }
+  body .header .main-image .image-content h1 {
+    font-size: 1.5rem; }
+
+  /* Main */
+  body .main .services .services-images {
+    justify-content: center;
+    gap: 4rem; }
+    body .main .services .services-images .services-image {
+      width: 200px;
+      height: 200px; }
+  body .main .suppliers .logos #logo-kia {
+    width: 120px; }
+  body .main .suppliers .logos #logo-liqui {
+    width: 110px; }
+  body .main .suppliers .logos #logo-philips {
+    width: 120px; }
+  body .main .suppliers .logos #logo-hyundai {
+    width: 160px; }
+  body .main .suppliers .logos #logo-renault {
+    width: 100px; }
+  body .main .suppliers .logos #logo-castrol {
+    width: 140px; }
+  body .main .suppliers .logos .logo-image {
+    width: 150px; }
+
+  /* Footer */
+  body .footer .footer-container img {
+    width: 150px; } }
+@media (min-width: 768px) {
+  /* Header */
+  body .header .main-image .image-content h1 {
+    font-size: 1.7rem; }
+
+  /* Main */
+  body .main .services .services-images {
+    padding: 2rem 0; }
+    body .main .services .services-images .services-image {
+      width: 250px;
+      height: 250px; }
+      body .main .services .services-images .services-image h4 {
+        font-size: 1.25rem; }
+
+  /* Footer */ }
+@media (min-width: 992px) {
+  /* Header */
+  body .header .main-image {
+    height: 450px; }
+
+  /* Main */
+  /* Footer */ }
+@media (min-width: 1200px) {
+  /* Header */
+  body {
+    max-width: 2560px;
+    margin: 0 auto; }
+    body .header .main-image {
+      height: 600px; }
+
+  /* Main */
+  body .main .services .services-images {
+    justify-content: center;
+    gap: 7rem; }
+    body .main .services .services-images .services-image {
+      width: 30%;
+      height: 400px;
+      max-width: 500px; }
+
+  /* Footer */ }
 img {
   max-width: 100%; }
 
@@ -332,7 +405,7 @@ img {
   align-content: center;
   align-items: center;
   background-color: #4C6EA7;
-  padding: 1rem; }
+  padding: .25rem; }
   .header .nav .logo-container {
     padding: 0;
     margin-top: .5rem;
@@ -426,14 +499,18 @@ img {
     margin-left: -300%; }
   100% {
     margin-left: -300%; } }
+@media (min-width: 576px) {
+  .slider {
+    height: 350px; } }
 @media (min-width: 768px) {
   .slider {
-    width: 700px;
+    width: 85%;
     height: 400px; } }
 @media (min-width: 1200px) {
   .slider {
-    width: 800px;
-    height: 450px; } }
+    width: 80%;
+    height: 450px;
+    max-width: 1440px; } }
 .footer {
   background-color: #4C6EA7;
   display: flex;
@@ -471,7 +548,6 @@ img {
 .main {
   width: 100%;
   text-align: center;
-  font-family: "Libre Franklin", sans-serif;
   padding: 4rem 0;
   /* Proveedores */
   /* Logos de marcas */ }
@@ -479,6 +555,7 @@ img {
     text-align: center;
     width: 95%;
     margin: 0 auto;
+    max-width: 1440px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -528,6 +605,7 @@ img {
     text-align: center;
     width: 95%;
     margin: 0 auto;
+    max-width: 1440px;
     display: flex;
     justify-content: center;
     flex-direction: column;
