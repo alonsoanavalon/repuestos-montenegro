@@ -1,0 +1,157 @@
+.main {
+
+    width:100%;
+    text-align: center;
+    padding:4rem 0;
+
+    .services {
+        .services-text {
+            text-align: center;
+            width:95%;
+            margin:0 auto;
+
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            
+            .services-title {
+
+            }
+            .border-line {
+                width:100px;
+                height:3px;
+                background-color: $primary-color;
+            }
+            p {
+                line-height:1.5rem;
+            }
+
+  
+        }
+        .services-images {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            gap:1.5rem;
+
+            .services-image {
+                width:150px;
+                height:150px;
+                background-position: center;
+                background-clip: border-box;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                padding:0;
+                margin:0;
+                line-height: 0;
+                border-radius:.5rem;
+                -webkit-border-radius:.5rem;
+                -moz-border-radius:.5rem;
+                -ms-border-radius:.5rem;
+                -o-border-radius:.5rem;
+                -webkit-border-radius:.5rem;
+
+                color:#fff;
+                font-weight: bolder;
+}
+            .image-1 {
+                background-image: url('https://res.cloudinary.com/keyzen/image/upload/v1619891291/mobalzen/repuestosMontenegro/pexels-erik-mclean-4732635-min_dn8cdn.jpg');
+            }
+            
+            .image-2 {
+                
+                background-image: url('https://res.cloudinary.com/keyzen/image/upload/v1619891291/mobalzen/repuestosMontenegro/pexels-anete-lusina-4792505-min_vgbbpm.jpg');
+            }
+        }
+    }
+
+    .suppliers-text,
+    .slider-text,
+    .us-text {
+
+        .border-line {
+            width:100px;
+            height:3px;
+            background-color: $primary-color;
+        } 
+        text-align: center;
+        width:95%;
+        margin:0 auto;
+
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+        p {
+            line-height:1.5rem;
+        }
+        
+    }
+
+    /* Proveedores */
+
+    .suppliers-text {
+        p {
+            span {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    /* Logos de marcas */
+
+    .logos {
+        display: flex;
+
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap:1.5rem;
+        
+        padding:2rem 0;
+
+        background-color: $light-gray;
+
+        .first-row,
+        .second-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap:2.5rem;
+
+        }
+
+        #logo-hyundai{
+      
+            width:24vw;
+        }
+        #logo-liqui {
+            width:18vw;
+        }
+        #logo-renault {
+            width:15vw;
+        }
+
+        .logo-image {
+            min-width:50px;
+            width:21vw;
+            
+        }
+    }
+
+}
+
+

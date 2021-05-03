@@ -1,5 +1,7 @@
 body {
-    max-width:1920px;
+    font-family: $primary-font;
+    max-width:2560px;
+    margin:0 auto;
     
     display:grid;
     grid-template-columns: repeat(3, auto);

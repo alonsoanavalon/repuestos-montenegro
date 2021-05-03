@@ -1,0 +1,95 @@
+img {
+    max-width:100%;
+
+}
+
+.header {
+    .nav {
+
+        display:flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        background-color: $primary-color;
+        padding:1rem;
+        .logo-container {
+            
+            padding:0;
+            margin-top:.5rem;
+            line-height: 0;
+           
+            .nav-logo {
+                padding:0;
+                margin:0;
+                line-height: 0;
+                width:200px;
+                
+            }
+
+      
+
+
+        }
+
+
+
+        .nav-btn {
+            width:50px;
+        }
+
+        .hidden {
+            visibility: hidden;
+            display: none;
+        }
+        .nav-menu {
+
+            text-decoration: none;
+            .nav-menu__item {
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    .main-image {
+        background-image: url('https://res.cloudinary.com/keyzen/image/upload/v1619891291/mobalzen/repuestosMontenegro/pexels-cottonbro-7019367-min_jjrx0w.jpg');
+        background-position: center;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding:0;
+        margin:0;
+        line-height: 0;
+      
+
+        height:350px;
+
+        .image-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            img {
+
+                margin-left:2rem;
+                width:100px;
+            }
+
+            h1 {
+                color:#fff;
+                font-family: $primary-font;
+                font-size: 5vw;
+                
+                
+
+            }
+
+
+        }
+    }
+}

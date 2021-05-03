@@ -1,0 +1,88 @@
+.container-slider {
+    padding-top:1rem;
+    text-align: center;
+    .slider-title {
+       
+
+
+    }
+
+    
+    .wood-icon {
+        width:60px;
+     
+    }
+}
+
+.slider {
+    width:95%;
+    margin:3rem auto;
+    height:200px;
+    overflow: hidden;
+
+
+    
+}
+.slider ul li {
+    list-style: none;
+    margin:0;
+    padding:0;
+
+}
+
+.slider ul {
+    padding:0;
+    display: flex;
+    width:400%;
+
+    animation:slider 20s infinite alternate;
+}
+
+.slider li {
+    width:100%;
+    list-style: none;
+}
+
+.slider li img {
+    width:100%;
+    object-fit:cover;
+}
+
+@keyframes slider {
+    0% {margin-left:0}
+    20% {margin-left:0}
+
+    25% {margin-left:-100%}
+    45% {margin-left:-100%}
+
+    50% {margin-left:-200%}
+    70% {margin-left:-200%}
+
+    75% {margin-left:-300%}
+    100% {margin-left:-300%}
+}
+
+
+
+@media (min-width: 576px) { 
+
+}
+
+
+@media (min-width: 768px) { 
+    .slider {
+        width:700px;
+        height:400px;
+    }
+}
+
+
+@media (min-width: 992px) { 
+}
+
+@media (min-width: 1200px) { 
+    .slider {
+        width:800px;
+        height:450px;
+    }
+ }
