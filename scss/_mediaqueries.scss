@@ -8,6 +8,7 @@
     /* Header */
 
     body {
+        
         .header {
             .nav {
                 .logo-container {
@@ -38,6 +39,8 @@
 
     body {
         .main {
+
+
             .services {
                 .services-images {
                    
@@ -103,9 +106,57 @@
     /* Header */
 
     body {
+
+        h2 {
+            font-size: 1.5rem; 
+            line-height: 1rem;
+        }
+        h3 {
+            font-size:1.3rem;
+        }
+
+        p {
+            font-size:1.1rem;
+        }
+
+
+
         .header {
             .nav {
 
+                .nav-menu {
+                    transform: translateX(0);
+                    display:flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap:1.5rem;
+                    width:fit-content;
+                    position:relative;
+                    opacity: 1;
+                    z-index:0;
+                    background-color:transparent;
+                    
+
+                    
+                    
+                    -webkit-transform: translateX(0);
+                    -moz-transform: translateX(0);
+                    -ms-transform: translateX(0);
+                    -o-transform: translateX(0);
+                    
+                
+                    .nav-menu__item {
+                        margin:2rem 0;
+                        padding:0;
+                        font-size: 1.2rem;
+                        color:#fff;
+                    }
+            
+            
+            
+            
+                }
+            
             }
 
             .main-image {
@@ -127,6 +178,15 @@
 
         .main {
             .services {
+
+                .services-text {
+                    .services-title {
+                        font-size: 1.5rem;
+                    }
+                    h3 {
+                        font-size: 1.3rem;
+                    }
+                }
              
                 .services-images {
                     padding:2rem 0;
@@ -136,6 +196,38 @@
                         h4 {
                             font-size: 1.25rem;
                         }
+                    }
+                }
+            }
+
+            .container-slider {
+                .slider-text{
+                    .slider-title {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+
+            .suppliers {
+                .suppliers-text {
+                    h2 {
+                        font-size: 1.5rem;
+                        line-height: 1rem;
+                    }
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+
+            .us {
+                .us-text {
+                    h2 {
+                        font-size: 1.5rem;
+                        line-height: 1rem;
+                    }
+                    p {
+                        font-size: 1.1rem;
                     }
                 }
             }
@@ -185,7 +277,7 @@
     /* Main */
 
     body {
-
+        
 
         
 
@@ -198,9 +290,20 @@
                     .services-image {
                         width:30%;
                         height:400px;
-                        max-width:500px;
+                        max-width:400px;
 
-
+                        h4 {
+                            font-size:1.5rem;
+                        }
+                    }
+                }
+            }
+            .suppliers {
+                .logos {
+                    gap:4.5rem;
+                    .first-row,
+                    .second-row {
+                        gap:4.5rem;
                     }
                 }
             }

@@ -1,8 +1,19 @@
+body {
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        font-size: 1.15rem;
+    }
+
+}
+
 .main {
 
     width:100%;
     text-align: center;
     padding:4rem 0;
+    
 
     .services {
         .services-text {
@@ -39,7 +50,7 @@
             gap:1.5rem;
 
             .services-image {
-                width:150px;
+                width:40%;
                 height:150px;
                 background-position: center;
                 background-clip: border-box;
@@ -61,7 +72,9 @@
 
                 color:#fff;
                 font-weight: bolder;
-}
+
+        
+            }
             .image-1 {
                 background-image: url('https://res.cloudinary.com/keyzen/image/upload/v1619891291/mobalzen/repuestosMontenegro/pexels-erik-mclean-4732635-min_dn8cdn.jpg');
             }
