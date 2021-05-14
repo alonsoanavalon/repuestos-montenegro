@@ -538,6 +538,103 @@ img {
   -ms-transform: translateX(0%);
   -o-transform: translateX(0%); }
 
+.location {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  position: relative; }
+
+.localestitle {
+  justify-items: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  border: solid 3px black; }
+
+.locales {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-flex;
+  margin: 0 auto; }
+
+.main-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column; }
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap; }
+
+.main-location > .location-text {
+  width: 85%;
+  max-width: 1000px; }
+
+/* Mapas */
+/*
+.mapouter{
+    display: flex;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+*/
+/* Desktop */
+.mapouter2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  padding: 2rem; }
+
+.gmap_canvas2 {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px; }
+
+/* Mobile */
+.map1-mobile {
+  height: 300px;
+  width: 300px; }
+
+.canvasMobile {
+  height: 300px;
+  width: 300px; }
+
+.map1-mobile,
+.map2-mobile {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  padding: 2rem 0; }
+
+@media (max-width: 650px) {
+  .map-container {
+    flex-direction: column; }
+
+  .map1-desktop,
+  .map2-desktop {
+    display: none;
+    visibility: hidden;
+    position: absolute; }
+
+  .map1-mobile,
+  .map2-mobile {
+    visibility: visible;
+    display: block;
+    position: relative; } }
 .container-slider {
   padding-top: 1rem;
   text-align: center; }

@@ -15,6 +15,8 @@ export default function responsiveQueries (id1,  mq, classHidden) {
 
         }
 
+        
+
     }
 
     breakpoint.addEventListener("change", responsive);
