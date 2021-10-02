@@ -7,7 +7,7 @@ img {
     .nav {
 
         display:flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-content: center;
         align-items: center;
         background-color: $primary-color;
